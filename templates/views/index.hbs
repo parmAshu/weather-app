@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" href="/img/weather.png">
+    <meta name="viewport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="main_content">
+        {{>header}}
+        <br><br><br>
+        <form>
+            <input id="searchAddress" type="text" name="address" placeholder="your address" class="input"><br><br>
+        </form>
+        <button class="getWeather" onclick="search()"> Search </button>
+        <br><br>
+        <p class="text" id="textArea">
+        </p>
+    </div>
+    {{>footer}}
+    <script src='/js/app.js'>
+    </script>
+</body>
+</html>

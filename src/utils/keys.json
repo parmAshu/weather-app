@@ -1,0 +1,4 @@
+{
+    "weatherstack" : "your weather stack api key",
+    "mapbox" : "your mapbox api key"
+}
